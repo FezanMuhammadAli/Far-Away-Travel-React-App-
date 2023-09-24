@@ -1,6 +1,7 @@
 export default function Item({ item, onDeleteItem, onTogggleItem }) {
   return (
     <li>
+      {/* issue is with this code! */}
       <input
         type="checkbox"
         value={item.packed}
